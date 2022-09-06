@@ -6,3 +6,9 @@ class First {
 
     }
 }
+class Ka{
+    public static void name(String[] args) {
+        System.out.println("jj");
+        
+    }
+}
