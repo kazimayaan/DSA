@@ -13,7 +13,7 @@ public class types {
 
         long largeint= 8383883933L;
         boolean check = true;
-        
+        System.out.println(largeint +  largeis+  marks +" " + check + kazim + roll + name);
 
     }
 

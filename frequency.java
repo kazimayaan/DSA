@@ -16,5 +16,6 @@ public class frequency {
             m=m/10;
         }
         System.out.println(k + " has repeated " +count + " times in the number " + n);
+        in.close();
     }
 }

@@ -27,5 +27,6 @@ public class typecheck {
         else{
             System.out.println("upper");
         }
+        in.close();
     }
 }

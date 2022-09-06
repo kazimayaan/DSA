@@ -4,7 +4,7 @@ public class fibonacci {
 
         int a = 0;
         int b= 1;
-        int k= 2;
+        // int k= 2;
         Scanner in = new Scanner(System.in);
         int n= in.nextInt();
         for (int c = 2; c <=n; c++) {

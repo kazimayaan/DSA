@@ -42,7 +42,7 @@ public class typecast {
 //                       gives int       gives float      gives double.
         System.out.println(res);
 
-
+kkk.close();
     }
 }
 //to make the typecast, the destination type should be greater than the source type.,and they should be similar.
