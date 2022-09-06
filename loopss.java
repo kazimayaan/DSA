@@ -24,7 +24,7 @@ public class loopss {
             System.out.print(k + " ");
             k+=2;
         }while(k<=b);
-
+in.close();
 
     }
 }
