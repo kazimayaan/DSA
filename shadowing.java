@@ -1,4 +1,4 @@
-import java.net.SocketTimeoutException;
+// import java.net.SocketTimeoutException;
 
 public class shadowing {
     static int x = 90;
