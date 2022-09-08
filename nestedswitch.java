@@ -25,6 +25,8 @@ public class nestedswitch {
     }
     default -> System.out.println("enter a valid pne nigga");
 
+
 }
+in.close();
     }
 }
