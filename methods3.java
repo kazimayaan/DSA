@@ -1,5 +1,6 @@
 import java.util.Arrays;
-import java.util.Scanner;
+// import java.util.Scanner;
+// import java.util.Scanner;
 
 public class methods3 {
 
@@ -13,6 +14,7 @@ public class methods3 {
         int[] arr = {1,2,3,4,4,56,67,8};
         change(arr);
         System.out.println(Arrays.toString(arr));
+        // Scanner kkk = new scan()
 
     }
     static void swap(int a, int b){
