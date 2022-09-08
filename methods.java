@@ -8,7 +8,8 @@ public class methods {
         int result;
         result = lol();
         System.out.println(result);
-        
+        String ak= greet();
+        System.out.println(ak);
 
 in.close();
     }
@@ -37,5 +38,8 @@ in.close();
 
 
     }
-    
+    static String greet(){
+         String greeting = "How are you ";
+         return greeting;
+    }
 }
