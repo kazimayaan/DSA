@@ -4,9 +4,11 @@ public class methods {
         //q: ip 2 no and print sum
 
         Scanner in = new Scanner(System.in);
-        sum();
+        // sum();
+        int result;
+        result = lol();
+        System.out.println(result);
         
-
 
 in.close();
     }
@@ -22,4 +24,18 @@ in.close();
         System.out.println("the sum of the two numbers is "+ sum);
         in.close();
     }
+
+    static int lol(){
+        Scanner ll = new Scanner(System.in);
+        System.out.println("enter n1");
+        int x = ll.nextInt();
+        System.out.println("enter n2");
+        int y = ll.nextInt();
+        int res = x+y;
+        ll.close();
+        return res;
+
+
+    }
+    
 }
