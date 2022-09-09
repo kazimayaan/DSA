@@ -11,10 +11,10 @@ public class armstrong {
         in.close();
         for (int i = 100; i < 1000; i++) {
 
-            if(isArm(i)){
-                System.out.print(i+ " ");
+            if (isArm(i)) {
+                System.out.print(i + " ");
             }
-            
+
         }
     }
 
