@@ -30,6 +30,9 @@ Scanner in = new Scanner(System.in);
             for (int[] is : mul) {
                 System.out.println(Arrays.toString(is));
             }
-
+            for (int[] is : mul2d) {
+                System.out.println(Arrays.toString(is));
+            }
+in.close();
     }
 }
