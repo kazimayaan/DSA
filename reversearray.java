@@ -5,7 +5,7 @@ public class reversearray {
 
     // public class swaparray {
     public static void main(String[] args) {
-        int[] arr = new int[5];
+        int[] arr = new int[6];
         Scanner in = new Scanner(System.in);
 
         for (int i = 0; i < arr.length; i++) {
@@ -13,7 +13,7 @@ public class reversearray {
 
         }
 
-        swapa(arr, 0, 4);
+        // swapa(arr, 0, 4);
 
         System.out.println(Arrays.toString(arr));
 
