@@ -2,12 +2,15 @@ public class arrays {
     public static void main(String[] args) {
         // q store a roll no
         int a = 189;
+        System.out.println(a);
         // store a name
         String name = "kazim";
+        System.out.println(name);
 
         // q store 5 roll nos;
 
         int rolls[]= {1,2,3,4,5};
+        System.out.println(rolls);
         // array[] kazim = new arrays();
         int [] rnos = new int[5];
         rnos[1] = 23;
