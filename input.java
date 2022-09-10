@@ -36,5 +36,8 @@ public class input {
 
         str[2 ] = "kazimmm";
         System.out.println(Arrays.toString(str));
+
+
+        
     }
 }
