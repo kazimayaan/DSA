@@ -19,7 +19,14 @@ Scanner in = new Scanner(System.in);
                     mul[i][j] = in.nextInt();
                 }
             }
-
+            for (int i = 0; i < mul.length; i++) {
+                for (int j = 0;j< mul[i].length; j++) {
+                  System.out.println(mul[i][j]);
+        //   mul[i][j]
+                }
+                System.out.println();
+            }
+// every element is an arrys sop rint array
             for (int[] is : mul) {
                 System.out.println(Arrays.toString(is));
             }
