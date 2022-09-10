@@ -1,4 +1,4 @@
-import java.rmi.server.SocketSecurityException;
+// import java.rmi.server.SocketSecurityException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -24,6 +24,6 @@ public class arraylist {
         }
         // System.out.println(kazim.addAll(kazim));
 
-
+in.close();
     }
 }
