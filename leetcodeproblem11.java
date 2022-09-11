@@ -15,6 +15,7 @@ public class leetcodeproblem11 {
         }
         System.out.println(Arrays.toString(num));
         solution(num);
+        in.close();
     }
 
     private static void solution(int[] num) {
@@ -40,6 +41,9 @@ public class leetcodeproblem11 {
     }
 
     private static int length(int item) {
+        if(item==0){
+            return 0;
+        }
 int n = item;
         int l = 0;
         while(n>0){
