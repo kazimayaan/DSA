@@ -24,7 +24,7 @@ else{
     }
 
     private static int lsearch(int[] arr, int sob) {
-        boolean flag = false;
+        // boolean flag = false;
 
         if(arr.length == 0){
             return -1;
@@ -32,7 +32,7 @@ else{
         for (int i = 0; i < arr.length; i++) {
             if (sob == arr[i]) {
            
-                flag = true;
+                // flag = true;
                 return i;
             }
         }
