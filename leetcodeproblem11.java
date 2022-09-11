@@ -23,6 +23,9 @@ public class leetcodeproblem11 {
         int[] sol = new int[num.length];
             for (int i = 0; i < num.length; i++) {
                 item = num[i];
+                if(item<0){
+                    item = item*-1;
+                }
 
                 int length = length(item);
                 if(length%2==0){
