@@ -7,7 +7,7 @@ public class leetcodeproblem2 {
         int[][] arr = {
                 {1, 2, 4},
                 {4,1,1,91},
-                {4,5,6}
+                {4,5,6,4000}
         };
 
 
