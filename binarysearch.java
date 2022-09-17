@@ -17,6 +17,7 @@ public class binarysearch {
 
             System.out.println("elemnt found at " + i+"th position");
         }
+        in.close();
     }
 
     private static int bs(int[] arr, int target) {
