@@ -4,12 +4,12 @@ public class binaryfloor {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,10,66,76,86,92};
         int target = 85;
-       int index =  cieling(arr,target);
+       int index =  floor(arr,target);
        System.out.println(arr[index]);
         
     }
 
-    private static int cieling(int[] arr, int target) {
+    private static int floor(int[] arr, int target) {
 
         int s = 0;
         int e = arr.length -1;
