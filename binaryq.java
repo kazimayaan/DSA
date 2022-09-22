@@ -3,7 +3,7 @@ public class binaryq {
     //sorted array: use binary search
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,10,66,76,86,92};
-        int target = 93;
+        int target = 92;
    
        int index =  cieling(arr,target);
        System.out.println(arr[index]);
