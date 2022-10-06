@@ -12,7 +12,6 @@ public class binaryq {
     }
 
     private static int cieling(int[] arr, int target) {
-
         int s = 0;
         int e = arr.length -1;
         if(target>arr[arr.length-1]){
@@ -31,8 +30,7 @@ public class binaryq {
         }
         else{
            
-           
-            e=mid-1;
+           e=mid-1;
         }
 
        }
