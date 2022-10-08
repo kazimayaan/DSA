@@ -40,6 +40,10 @@ public class rotatedsorted {
 
         int p = findPivot(arr);
         int n = arr.length;
+        if(p == target){
+            return p;
+        }
+        else if (target > arr[0]){
         int s = 0;
         int e  = p-1;
         while(s<=e){
@@ -54,8 +58,12 @@ public class rotatedsorted {
                 e = mid-1;
             }
         }
-        s= p;
-        e=n-1;
+    }
+    else if (target<arr[0]){
+
+    
+      int  s= p;
+      int  e=n-1;
         while(s<=e){
             int mid = s+ (e-s)/2;
             if(arr[mid]==target){
@@ -68,8 +76,9 @@ public class rotatedsorted {
                 e = mid-1;
             }
         }
-        return -1;
     }
+    return -1;
+}
 
     private static int findPivot(int[] arr) {
          int n = arr.length;
