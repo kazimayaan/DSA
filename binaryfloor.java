@@ -12,9 +12,9 @@ public class binaryfloor {
     private static int floor(int[] arr, int target) {
 
         int s = 0;
-        int e = arr.length -1;
-       while(s<=e){
-        int mid = (s+e)/2;
+        int end = arr.length -1;
+       while(s<=end){
+        int mid = (s+end)/2;
         if(arr[mid]==target){
         return mid;
 
@@ -26,11 +26,11 @@ public class binaryfloor {
         else{
            
            
-            e=mid-1;
+            end=mid-1;
         }
 
        }
-       return e;
+       return end;
     }
    
 }
