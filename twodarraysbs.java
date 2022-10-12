@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class twodarraysbs {
     public static void main(String[] args) {
         
@@ -9,7 +11,8 @@ public class twodarraysbs {
             {14,24,34,44,54}
         };
         int target = 33;
-        search(matrix, target);
+        int[] sol =search(matrix, target);
+        System.out.println(Arrays.toString(sol));
         
     }
     static int[] search(int[][] matrix, int target){
