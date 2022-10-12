@@ -50,10 +50,21 @@ public class strictlysorted2darray {
         }
 
         // search in forst half
-        
+        if(target<=arr[rowstart][cmid-1]){
+            return bs(arr,rowstart,0,cmid-1,target);
+        }
         // search in seconf half
+        if(target>=arr[rowstart][cmid+1]){
+            return bs(arr,rowstart,cmid+1,c,target);
+        }
         // searcgh in third ha;f
+        if(target<=arr[rowstart+1][cmid-1]){
+            return bs(arr,rowstart, 0 , cmid-1,target);
+        }
         // search in fourth half
+        if(target>=arr[rowstart+1][cmid+1]){
+            return bs(arr,rowstart, cmid+1 , c,target);
+        }
 
     }
     // searching in row provided with cols.
