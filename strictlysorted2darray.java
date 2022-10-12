@@ -8,7 +8,7 @@ public class strictlysorted2darray {
                 { 9, 10, 11, 12 },
                 { 13, 14, 15, 16 }
         };
-        int target = 12;
+        int target = 9;
         int[] sol = search(arr, target);
         System.out.println(Arrays.toString(sol));
     }
