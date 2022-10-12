@@ -23,6 +23,7 @@ public class strictlysorted2darray {
 
         }
     }
+    // searching in row provided with cols.
     static int[] bs(int[][] matrix,int row, int cols, int cole, int target){
         int mid = cols+(cole-cols)/2;
       
