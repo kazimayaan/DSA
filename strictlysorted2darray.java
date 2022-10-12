@@ -28,7 +28,15 @@ public class strictlysorted2darray {
         // rumn loop till two rows are remaining
         while(rowstart< (rend-1)){
             int mid = rowstart + (rend -rowstart)/2;
-            
+            if(arr[mid][cmid]==target){
+                return new int[] {mid,cmid};
+            }
+            if(arr[mid],[cmid]<target){
+                rowstart = mid;
+            }
+            else{
+                rend = mid;
+            }
         }
 
     }
