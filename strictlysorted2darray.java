@@ -14,6 +14,13 @@ public class strictlysorted2darray {
     }
 
     private static int[] search(int[][] arr, int target) {
-        
+        int r = arr.length;
+        int c = arr[0].length; //being cautiouis
+
+        if(r == 1){
+
+
+
+        }
     }
 }
