@@ -14,6 +14,6 @@ public class strictlysorted2darray {
     }
 
     private static int[] search(int[][] arr, int target) {
-        return null;
+        
     }
 }
