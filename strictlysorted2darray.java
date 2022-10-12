@@ -18,7 +18,7 @@ public class strictlysorted2darray {
         int c = arr[0].length; //being cautiouis
 
         if(r == 1){
-
+                
             
 
         }
