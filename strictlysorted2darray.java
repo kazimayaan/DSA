@@ -37,7 +37,12 @@ public class strictlysorted2darray {
             else{
                 rend = mid;
             }
+
         }
+
+        //now we have only 2 rows remaining
+        //check weather the target element is in the column of two rows
+        if
 
     }
     // searching in row provided with cols.
