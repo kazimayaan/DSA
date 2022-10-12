@@ -58,7 +58,7 @@ public class strictlysorted2darray {
             return bs(arr,rowstart,cmid+1,c-1,target);
         }
         // searcgh in third ha;f
-        if(target<=arr[rowstart+1][cmid-1]){
+        if(target<=arr[rowstart+1][cmid-1] && target<= arr[rowstart][c-1]){
             return bs(arr,rowstart, 0 , cmid-1,target);
         }
         // search in fourth half
