@@ -26,7 +26,10 @@ public class strictlysorted2darray {
         int rend = r-1;
         int cmid = c/2;
         // rumn loop till two rows are remaining
-        while()
+        while(rowstart< (rend-1)){
+            int mid = rowstart + (rend -rowstart)/2;
+            
+        }
 
     }
     // searching in row provided with cols.
