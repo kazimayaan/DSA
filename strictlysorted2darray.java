@@ -49,6 +49,12 @@ public class strictlysorted2darray {
             return new int[]{rowstart+1, cmid};
         }
 
+        // search in forst half
+        
+        // search in seconf half
+        // searcgh in third ha;f
+        // search in fourth half
+
     }
     // searching in row provided with cols.
     static int[] bs(int[][] matrix,int row, int cols, int cole, int target){
