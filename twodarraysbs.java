@@ -1,7 +1,15 @@
 public class twodarraysbs {
     public static void main(String[] args) {
         
-        
+        int[][] matrix = {
+            {10,20,30,40,50},
+            {11,21,31,41,51},
+            {12,22,32,42,52},
+            {13,23,33,43,53},
+            {14,24,34,44,54}
+        };
+        int target = 33;
+        search(matrix, target);
         
     }
     static int[] search(int[][] matrix, int target){
