@@ -19,9 +19,15 @@ public class strictlysorted2darray {
 
         if(r == 1){
 
-            
+            return bs(arr, r, 0, c-1, target);
 
         }
+        int rowstart = 0;
+        int rend = r-1;
+        int cmid = c/2;
+        // rumn loop till two rows are remaining
+        while()
+
     }
     // searching in row provided with cols.
     static int[] bs(int[][] matrix,int row, int cols, int cole, int target){
