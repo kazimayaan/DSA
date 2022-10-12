@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class strictlysorted2darray {
     public static void main(String[] args) {
         int[][] arr = {
@@ -8,6 +10,7 @@ public class strictlysorted2darray {
         };
         int target = 12;
         int[] sol = search(arr,target);
+        System.out.println(Arrays.toString(sol));
     }
 
     private static int[] search(int[][] arr, int target) {
