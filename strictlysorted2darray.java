@@ -55,7 +55,7 @@ public class strictlysorted2darray {
         }
         // search in seconf half
         if(target>=arr[rowstart][cmid+1]){
-            return bs(arr,rowstart,cmid+1,c,target);
+            return bs(arr,rowstart,cmid+1,c-1,target);
         }
         // searcgh in third ha;f
         if(target<=arr[rowstart+1][cmid-1]){
@@ -63,7 +63,7 @@ public class strictlysorted2darray {
         }
         // search in fourth half
         if(target>=arr[rowstart+1][cmid+1]){
-            return bs(arr,rowstart, cmid+1 , c,target);
+            return bs(arr,rowstart, cmid+1 , c-1,target);
         }
 
     }
