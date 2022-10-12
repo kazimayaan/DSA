@@ -60,11 +60,11 @@ public class strictlysorted2darray {
         if (target <= arr[rowstart + 1][cmid - 1]) {
             return bs(arr, rowstart, 0, cmid - 1, target);
         }
-        // search in fourth half
-        if (target >= arr[rowstart + 1][cmid + 1]) {
+        else {
             return bs(arr, rowstart, cmid + 1, c - 1, target);
         }
-        return new int[] { -1, -1 };
+
+        // return new int[] { -1, -1 };
 
     }
 
