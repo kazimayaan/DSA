@@ -42,7 +42,12 @@ public class strictlysorted2darray {
 
         //now we have only 2 rows remaining
         //check weather the target element is in the column of two rows
-        if
+        if (arr[rowstart][cmid]==target){
+            return new int[] {rowstart, cmid};
+        }
+        if(arr[rowstart+1][cmid ]==target){
+            return new int[]{rowstart+1, cmid};
+        }
 
     }
     // searching in row provided with cols.
