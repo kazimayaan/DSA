@@ -18,10 +18,26 @@ public class strictlysorted2darray {
         int c = arr[0].length; //being cautiouis
 
         if(r == 1){
-                
+
             
 
         }
     }
-    static int bs(int[] arr,int )
+    static int[] bs(int[][] matrix,int row, int cols, int cole, int target){
+        int mid = cols+(cole-cols)/2;
+      
+        while(cols<=cole){
+            if(matrix[row][mid]==target){
+                return new int[] {row,mid}; 
+
+            }
+            else if(matrix[row][mid]<target){
+                cols = mid+1;
+            }
+            else{
+                cole = mid-1;
+            }
+        }
+        return new int[] {-1,-1};
+    }
 }
