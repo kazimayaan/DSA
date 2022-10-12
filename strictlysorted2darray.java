@@ -19,8 +19,9 @@ public class strictlysorted2darray {
 
         if(r == 1){
 
-
+            
 
         }
     }
+    static int bs(int[] arr,int )
 }
