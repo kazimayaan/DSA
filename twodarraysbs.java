@@ -7,11 +7,20 @@ public class twodarraysbs {
     static int[] search(int[][] matrix, int target){
         int r = 0;
         int c = matrix.length-1;
+        int[] sol = new int[2];
 
         while(r <matrix.length && c > 0){
 
             if(matrix[r][c]==target){
-                return int[] = {r,c};
+                sol[0] = r;
+                sol[1] = c;
+                return sol;
+            }
+            else if(matrix[r][c]>target){
+                c--;
+            }
+            else if(matrix[r][c]<target){
+                r++;
             }
         }
     }
