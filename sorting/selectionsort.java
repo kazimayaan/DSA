@@ -25,7 +25,15 @@ selectinsort(arr);
                 max=i;
             }
 
+            
+
         }
-        
+        return max;
     }
-}
+    private static void (int[] arr, int first, int second){
+        int temp;
+        temp = arr[first];
+        arr[first]= arr[second];
+        arr[second]=temp;
+    }
+ }
