@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class selectionsort {
     public static void main(String[] args) {
- int[] arr = {1,5,6,7,3,2,4,10,9};
+ int[] arr = {1,10,11,5,4,2,3,7};
+//  swap(arr, 2, 0);
 selectinsort(arr);
  System.out.println(Arrays.toString(arr));
     }
@@ -20,7 +21,7 @@ selectinsort(arr);
 
     private static int GetMaxIndex(int[] arr, int syart, int last) {
         int max = syart;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i <= last; i++) {
             if(arr[max]<arr[i]){
                 max=i;
             }
