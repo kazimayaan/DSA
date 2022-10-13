@@ -11,5 +11,14 @@ selectinsort(arr);
 
     private static void selectinsort(int[] arr) {
         
+        for (int i = 0; i < arr.length; i++) {
+            int last = arr.length -i;
+            int max =  GetMaxIndex(arr,0,last);
+
+        }
+    }
+
+    private static int GetMaxIndex(int[] arr, int i, int last) {
+        return 0;
     }
 }
