@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class selectionsortwminiubd {
     public static void main(String[] args) {
-        int[] arr = { 1, 23, 4, 5, 3, 77, 9, 7,99 };
+        int[] arr = { 1000,1, 23, 4, 5, 3, 77, 9, 7,99 };
         selections(arr);
         System.out.println(Arrays.toString(arr));
     }
