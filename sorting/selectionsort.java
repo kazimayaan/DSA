@@ -14,7 +14,7 @@ selectinsort(arr);
         for (int i = 0; i < arr.length; i++) {
             int last = arr.length -i;
             int max =  GetMaxIndex(arr,0,last);
-
+            swap(arr,max,last);
         }
     }
 
@@ -30,7 +30,7 @@ selectinsort(arr);
         }
         return max;
     }
-    private static void (int[] arr, int first, int second){
+    private static void swap (int[] arr, int first, int second){
         int temp;
         temp = arr[first];
         arr[first]= arr[second];
