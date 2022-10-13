@@ -12,10 +12,10 @@ public class selectionsortwminiubd {
     private static void selections(int[] arr) {
 
         for (int i = 0; i < arr.length; i++) {
-            int last = arr.length - 1 - i;
-            int maxIn = getMaxIndex(arr, 0, last);
+            int first = i;
+            int maxIn = getMinIndex(arr, i, arr.length-1);
 
-            swap(arr, maxIn, last);
+            swap(arr, maxIn, );
         }
 
     }
@@ -26,13 +26,13 @@ public class selectionsortwminiubd {
         arr[last] = temp;
     }
 
-    private static int getMaxIndex(int[] arr, int i, int last) {
-        int maxIn = 0;
-        for (int j = 0; j <= last; j++) {
+    private static int getMinIndex(int[] arr, int i, int last) {
+        int minIn = 0;
+        for (int j = i; j <= last; j++) {
             if (arr[maxIn] < arr[j]) {
-                maxIn = j;
+                minIn = j;
             }
         }
-        return maxIn;
+        return minIn;
     }
 }
