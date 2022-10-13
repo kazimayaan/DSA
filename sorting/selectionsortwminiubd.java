@@ -29,7 +29,7 @@ public class selectionsortwminiubd {
     private static int getMinIndex(int[] arr, int i, int last) {
         int minIn = 0;
         for (int j = i; j <= last; j++) {
-            if (arr[maxIn] < arr[j]) {
+            if (arr[minIn] < arr[j]) {
                 minIn = j;
             }
         }
