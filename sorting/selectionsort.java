@@ -12,7 +12,7 @@ selectinsort(arr);
     private static void selectinsort(int[] arr) {
         
         for (int i = 0; i < arr.length; i++) {
-            int last = arr.length -i;
+            int last = arr.length -i -1;
             int max =  GetMaxIndex(arr,0,last);
             swap(arr,last,max);
         }
