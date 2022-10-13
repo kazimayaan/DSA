@@ -14,7 +14,7 @@ selectinsort(arr);
         for (int i = 0; i < arr.length; i++) {
             int last = arr.length -i;
             int max =  GetMaxIndex(arr,0,last);
-            swap(arr,max,last);
+            swap(arr,last,max);
         }
     }
 
