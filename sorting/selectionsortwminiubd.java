@@ -13,9 +13,9 @@ public class selectionsortwminiubd {
 
         for (int i = 0; i < arr.length; i++) {
             int first = i;
-            int maxIn = getMinIndex(arr, i, arr.length-1);
+            int minIn = getMinIndex(arr, i, arr.length-1);
 
-            swap(arr, maxIn, );
+            swap(arr, minIn, first );
         }
 
     }
