@@ -18,7 +18,14 @@ selectinsort(arr);
         }
     }
 
-    private static int GetMaxIndex(int[] arr, int i, int last) {
-        return 0;
+    private static int GetMaxIndex(int[] arr, int syart, int last) {
+        int max = syart;
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[max]<arr[i]){
+                max=i;
+            }
+
+        }
+        
     }
 }
