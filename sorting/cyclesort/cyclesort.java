@@ -9,7 +9,7 @@ public class cyclesort {
         // 
         // we need only n comparisons in cyclic sort
         // /very veyr very very // important 
-        int[] arr = {1,5,4,8,7,6,3,2};
+        int[] arr = {2};
         cyclesort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println("lol");
