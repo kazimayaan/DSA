@@ -18,9 +18,7 @@ public class insertionbig {
 
             for (int j = arr.length-i-1; j <arr.length; j++) {
                 if(arr[j]<arr[j-1]){
-                    int temp = arr[j];
-                    arr[j]=arr[j-1];
-                    arr[j-1]=temp; 
+                    swap(j,j-1,arr);
                     
                 }
                 else{
@@ -29,6 +27,12 @@ public class insertionbig {
             }
             
         }
+    }
+
+    private static void swap(int j, int i, int[] arr) {
+        int temp = arr[j];
+                    arr[j]=arr[j-1];
+                    arr[j-1]=temp; 
     }
     
 }
