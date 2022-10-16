@@ -17,7 +17,11 @@ public class cyclesort {
     private static void cyclesort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if(arr[i]!= i+1){
-                swap(i,arr[i],arr);
+                while(arr[i]!=i+1){
+
+                    swap(i,arr[i-1],arr);
+                }
+               
             }
             else{
                 continue;
