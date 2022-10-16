@@ -9,9 +9,10 @@ public class cyclesort {
         // 
         // we need only n comparisons in cyclic sort
         // /very veyr very very // important 
-        int[] arr = {1,7,6,5,4,3,2,8};
+        int[] arr = {1,5,4,8,7,6,3,2};
         cyclesort(arr);
         System.out.println(Arrays.toString(arr));
+        System.out.println("lol");
     }
 
     private static void cyclesort(int[] arr) {
@@ -19,14 +20,11 @@ public class cyclesort {
             if(arr[i]!= i+1){
                 while(arr[i]!=i+1){
 
-                    swap(i,arr[i-1],arr);
+                    swap(i,arr[i]-1,arr);
                 }
                
             }
-            else{
-                continue;
-                
-            }
+            
         }
     }
 
