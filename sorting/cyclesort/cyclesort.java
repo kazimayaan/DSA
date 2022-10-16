@@ -9,14 +9,26 @@ public class cyclesort {
         // 
         // we need only n comparisons in cyclic sort
         // /very veyr very very // important 
-        int[] arr = {8,7,6,5,4,3,2,1};
+        int[] arr = {1,7,6,5,4,3,2,8};
         cyclesort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
     private static void cyclesort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            
+            if(arr[i]!= i+1){
+                swap(i,arr[i],arr);
+            }
+            else{
+                continue;
+                
+            }
         }
+    }
+
+    private static void swap(int i, int j, int[] arr) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
