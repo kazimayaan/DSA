@@ -31,7 +31,7 @@ public class selectionsortwminiubd {
         for (int j = i; j <= last; j++) {
             if (arr[minIn] > arr[j]) {
                 minIn = j;
-            }
+            } 
         }
         return minIn;
     }
