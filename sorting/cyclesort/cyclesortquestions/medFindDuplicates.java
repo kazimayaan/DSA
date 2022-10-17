@@ -3,9 +3,14 @@ package sorting.cyclesort.cyclesortquestions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class cycsortprob2 {
+public class medFindDuplicates {
     // google question
     public static void main(String[] args) {
+
+        int[] arr = {1,2,3,4,5,5,8,8};
+        List<Integer> sol =     findDuplicates(arr);
+        System.out.println(sol);
+
         
     }
     public static List<Integer> findDuplicates(int[] nums) {
