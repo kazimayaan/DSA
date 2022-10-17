@@ -1,5 +1,5 @@
 package sorting.cyclesort.cyclesortquestions;
-
+// a,mazon and microsioft google questioons
 public class medfinddupnukm {
     
 
@@ -13,7 +13,7 @@ System.out.println(sol);
 
     public static int findDuplicate(int[] nums) {
           
-        
+
      
         
         
