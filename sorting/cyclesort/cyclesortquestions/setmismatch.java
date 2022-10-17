@@ -2,7 +2,7 @@ package sorting.cyclesort.cyclesortquestions;
 
 public class setmismatch {
     public static void main(String[] args) {
-        int[] arr ={1,2,0};
+        int[] arr ={1,2,2};
         int[] sol =  findErrorNums(arr);
 for (int i = 0; i < sol.length; i++) {
       System.out.println(sol[i]);
