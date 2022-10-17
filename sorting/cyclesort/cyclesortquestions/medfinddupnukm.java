@@ -12,6 +12,7 @@ System.out.println(sol);
     }
 
     public static int findDuplicate(int[] nums) {
+          
         
      
         
