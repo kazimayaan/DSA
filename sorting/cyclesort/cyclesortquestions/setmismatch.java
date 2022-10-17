@@ -4,7 +4,9 @@ public class setmismatch {
     public static void main(String[] args) {
         int[] arr ={1,2,0};
         int[] sol =  findErrorNums(arr);
-  System.out.println(sol);
+for (int i = 0; i < sol.length; i++) {
+      System.out.println(sol[i]);
+}
     }
     public static int[] findErrorNums(int[] nums) {
         int i = 0;
