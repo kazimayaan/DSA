@@ -17,7 +17,7 @@ public class medFindDuplicates {
         
       
         int i = 0;
-        ArrayList<Integer> arrli = new ArrayList<>();
+        ArrayList<Integer> arrli=new ArrayList<>();
         while(i<nums.length){
             int correct = nums[i]-1;
            
@@ -31,11 +31,8 @@ public class medFindDuplicates {
         
         for(int j = 0; j < nums.length; j++){
             int correct = j+1;
-            if(nums[j]!=correct){
-                
-            
-                
-                 arrli.add(nums[j]); 
+            if(nums[j]!=correct){    
+                arrli.add(nums[j]); 
             }
         }
         
