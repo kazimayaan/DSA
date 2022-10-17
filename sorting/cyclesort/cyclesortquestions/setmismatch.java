@@ -3,7 +3,7 @@ package sorting.cyclesort.cyclesortquestions;
 public class setmismatch {
     public static void main(String[] args) {
         int[] arr ={1,2,0};
-        int sol =  findErrrorNums(arr);
+        int[] sol =  findErrorNums(arr);
   System.out.println(sol);
     }
     public static int[] findErrorNums(int[] nums) {
@@ -30,7 +30,7 @@ public class setmismatch {
         
         return arr;
     }
-    private void swap(int[] nums, int i, int j){
+    private static void swap(int[] nums, int i, int j){
         int temp = nums[i];
         nums[i]=nums[j];
         nums[j]=temp;
