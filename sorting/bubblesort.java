@@ -15,7 +15,7 @@ public class bubblesort {
         
         boolean swapped;
         for (int i = 0; i < arr.length; i++) {
-        
+        // each iteration the max element is being pushed to the last index
             swapped = false;
             for (int j = 1; j < arr.length-i; j++) {
                 if( arr[j]<arr[j-1]){
