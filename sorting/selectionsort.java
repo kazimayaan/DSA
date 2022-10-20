@@ -18,6 +18,7 @@ public class selectionsort {
             swap(arr,last,max);
         }
     }
+    // just swap the max index with the last element
 
     private static int GetMaxIndex(int[] arr, int syart, int last) {
         int max = syart;
