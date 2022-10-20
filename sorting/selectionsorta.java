@@ -19,6 +19,7 @@ public class selectionsorta {
         }
 
     }
+    // select the smallest elemrnt and send at start
 
     private static void swap(int[] arr, int maxIn, int last) {
         int temp = arr[maxIn];
