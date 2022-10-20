@@ -22,6 +22,7 @@ public class cyclesortbykunal {
             }
             else{
                 i++;
+                
             }
         }
     }
