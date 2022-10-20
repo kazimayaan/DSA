@@ -12,6 +12,7 @@ public class insertionbig {
          System.out.println(Arrays.toString(arr));
 
     }
+    // here we sort a poart of array as we move on
 
     private static void insertionjsort(int[] arr) {
         for (int i = 0; i < arr.length-1; i++) {
