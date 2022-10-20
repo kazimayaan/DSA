@@ -24,6 +24,7 @@ public class insertionsort {
                     arr[j - 1] = temp;
 
                 } else {
+
                     break;
                 }
             }
