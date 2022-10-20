@@ -10,12 +10,12 @@ public class cyclesort {
         // we need only n comparisons in cyclic sort
         // /very veyr very very // important 
         int[] arr = {2};
-        cyclesort(arr);
+        cycleysort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println("lol");
     }
 
-    private static void cyclesort(int[] arr) {
+    private static void cycleysort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if(arr[i]!= i+1){
                 while(arr[i]!=i+1){

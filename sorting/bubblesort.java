@@ -7,11 +7,11 @@ public class bubblesort {
         // bubble sort also known as syncing sort or exchange sort
         int[] arr = {2,3,4,1,6,5,7,10,8,9};
 
-        bubblesort(arr);
+        bubbllesort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void bubblesort(int[] arr) {
+    private static void bubbllesort(int[] arr) {
         
         boolean swapped;
         for (int i = 0; i < arr.length; i++) {

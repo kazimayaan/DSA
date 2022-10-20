@@ -5,11 +5,13 @@ import java.util.Arrays;
 public class cyclesortbykunal {
     public static void main(String[] args) {
         int[] arr = {1,2,4,3,8,7,6,9,5};
-        cyclesortbykunal(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] arar = {1};
+
+        cyclesortbykkunal(arar);
+        System.out.println(Arrays.toString(arar));
     }
 
-    private static void cyclesortbykunal(int[] arr) {
+    private static void cyclesortbykkunal(int[] arr) {
 
 
         int i = 0;

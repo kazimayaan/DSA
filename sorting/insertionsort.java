@@ -8,12 +8,12 @@ public class insertionsort {
         
          int[] arr= {11,1,3,4,2,77,65,44,45,6};
 
-         insertionsort(arr);
+         oinsertionsort(arr);
          System.out.println(Arrays.toString(arr));
 
     }
 
-    private static void insertionsort(int[] arr) {
+    private static void oinsertionsort(int[] arr) {
         for (int i = 0; i < arr.length-1; i++) {
 
             for (int j = i+1; j >0; j--) {
