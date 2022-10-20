@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class cyclesortbykunal {
     public static void main(String[] args) {
         // int[] arr = {1,2,4,3,8,7,6,9,5};
-        int[] arar = {};
+        int[] arar = {1,2,3};
 
         cyclesortbykkunal(arar);
         System.out.println(Arrays.toString(arar));
