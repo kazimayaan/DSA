@@ -7,7 +7,7 @@ public class hardquestion {
         
 
 
-        int[] arr = {-1};
+        int[] arr = {1,2,-3};
 
         int sol = firstMissingPositive(arr);
         System.out.println(sol);
