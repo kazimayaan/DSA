@@ -6,7 +6,8 @@ public class first {
     // referenve points point to some object always.
     // internally :_
     // string pool : inyernallu yhe string its a seperate memory structure for stringsiin heap memory
-
+// string pool is making memory more optimised
+// strings are immutable
     public static void main(String[] args) {
         String kazim = "KAZIM";
         System.out.println(kazim);
