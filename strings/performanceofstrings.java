@@ -13,5 +13,7 @@ public class performanceofstrings {
             series = series +ch;
         }
         System.out.println(series);
+        // probkem ad=nd wht its a bad soluttion
+        
     }
 }
