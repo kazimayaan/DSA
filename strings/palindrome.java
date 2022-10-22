@@ -2,11 +2,11 @@ package strings;
 
 public class palindrome {
     public static void main(String[] args) {
-        String pali = "AaaaA";
-        Boolean sol = palindrome(pali);
+        String pali = "aaaaa";
+        // Boolean sol = palindrome(pali);
         // pali.replac
-        
-        System.out.println(sol);
+        int n = maxRepeating(pali,"a");
+        System.out.println(n);
     }
 
     private static Boolean palindrome(String pali) {
