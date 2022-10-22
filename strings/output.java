@@ -1,6 +1,6 @@
 package strings;
 
-import java.lang.reflect.Array;
+
 
 public class output {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class output {
         extracted();
         // out is a variable of type printstream
         // printstream si a class and has methods print and println
-        
+
         
     }
 
