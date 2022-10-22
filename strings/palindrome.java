@@ -4,6 +4,8 @@ public class palindrome {
     public static void main(String[] args) {
         String pali = "AaaaA";
         Boolean sol = palindrome(pali);
+        // pali.replac
+        
         System.out.println(sol);
     }
 
@@ -36,5 +38,16 @@ public class palindrome {
                 }
             }
             return true;
+    }
+    public int maxRepeating(String sequence, String word) {
+        int c=0;
+        String add=word;
+        while(sequence.contains(word)==true)
+        {
+            c+=1;
+            word=word+add;
+            //System.out.println(word);
+        }
+        return c;
     }
 }
