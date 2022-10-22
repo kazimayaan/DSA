@@ -18,5 +18,6 @@ public class methods {
         System.out.println(k.strip());
         System.out.println(Arrays.toString(name.split(" ")));
         
+
     }
 }
