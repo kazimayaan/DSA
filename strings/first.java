@@ -3,7 +3,7 @@ package strings;
 public class first {
     // String si most commonly used class in java
     // every string we create is an objecy, the name is referenve variable
-    // 
+    // referenve points point to same object always.
     public static void main(String[] args) {
         String kazim = "KAZIM";
         System.out.println(kazim);
