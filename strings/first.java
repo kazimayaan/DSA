@@ -8,10 +8,14 @@ public class first {
     // string pool : inyernallu yhe string its a seperate memory structure for stringsiin heap memory
 // string pool is making memory more optimised
 // strings are immutable
+// immutablility : cannot change the object, but we can create new ones\
+// immutablility for security reasons
     public static void main(String[] args) {
         String kazim = "KAZIM";
         System.out.println(kazim);
         String name = "kazim Ayaan P S";
+        System.out.println(name);
+        name = "kazim";
         System.out.println(name);
     }
 }
