@@ -15,6 +15,7 @@ public class output {
 // array is not working ebcvause it is an object
 // printinga  random value
 // if we want to do pretty print, we can override the method
+// primitivwa are stroed in stack memeory
 
         
     }
@@ -22,6 +23,6 @@ public class output {
     private static void extracted() {
         System.out.println(Arrays.toString(new int[]{1,23,45}));
         // function is now overridden'
-        
+
     }
 }
