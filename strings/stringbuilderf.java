@@ -9,6 +9,7 @@ public class stringbuilderf {
         }
         System.out.println(builder);
         // builde
-        
+        builder.reverse();
+        System.out.println(builder);
     }
 }
