@@ -21,5 +21,7 @@ public class output {
 
     private static void extracted() {
         System.out.println(Arrays.toString(new int[]{1,23,45}));
+        // function is now overridden'
+        
     }
 }
