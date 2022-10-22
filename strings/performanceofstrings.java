@@ -12,6 +12,6 @@ public class performanceofstrings {
             System.out.println(ch);
             series = series +ch;
         }
-        System.out.println(series);''
+        System.out.println(series);
     }
 }
