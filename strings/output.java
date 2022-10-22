@@ -1,6 +1,6 @@
 package strings;
 
-
+import java.util.Arrays;
 
 public class output {
     public static void main(String[] args) {
@@ -14,11 +14,12 @@ public class output {
         // everything is getting converterd to string then printed
 // array is not working ebcvause it is an object
 // printinga  random value
+// if we want to do pretty print, we can override the method
 
         
     }
 
     private static void extracted() {
-        System.out.println(new int[]{1,23,45});
+        System.out.println(Arrays.toString(new int[]{1,23,45}));
     }
 }
