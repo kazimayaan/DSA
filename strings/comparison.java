@@ -6,6 +6,9 @@ public class comparison {
         String b = "kazim";
 
         System.out.println(a==b);
+// == method : comparator
+// == checks both values and reference variabkles to same object
+// because it results true, the red var a , b are pointing to same object kazim;
 
     }
 }
