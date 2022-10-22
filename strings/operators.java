@@ -17,7 +17,9 @@ public class operators {
         // same as after few steps ("a"+ "1");
         System.out.println("Kunal" + new ArrayList<>());
         System.out.println("kazim " + new Integer(3));
-        // marke for removalo
-        ;
+        // marke for removalo\
+
+        // + used only with primitives and objects, only condition is at least one should be string
+        // the result will be a string
     }
 }
