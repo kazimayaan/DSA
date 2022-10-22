@@ -16,7 +16,9 @@ public class performanceofstrings {
         // probkem ad=nd wht its a bad soluttion
         // new object is being cteayed everytiume
         // in the above for loop
-        
+        // wastage of space happens
+        // complexity is O(n2)
+
 
     }
 }
