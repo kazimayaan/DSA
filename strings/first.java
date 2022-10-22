@@ -20,5 +20,6 @@ public class first {
         // here we are not changing the Kazim Ayaan P S object, java just created a new object of kazim
         // the old object goes into garbage collection
         
+
     }
 }
