@@ -8,5 +8,7 @@ public class operators {
         // with string it is ponly concatenating
         System.out.println('a'+3);
         System.out.println('A'+1);
+        System.out.println("a"+1);
+        // string witha number its conmcatenation
     }
 }
