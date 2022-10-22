@@ -16,5 +16,6 @@ public class methods {
        System.out.println(name.lastIndexOf('a'));
       String k =  "                 kazim             ";
         System.out.println(k.strip());
+        System.out.println(Arrays.toString(name.split(" ")));
     }
 }
