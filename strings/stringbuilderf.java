@@ -8,5 +8,7 @@ public class stringbuilderf {
             builder.append(ch);
         }
         System.out.println(builder);
+        // builde
+        
     }
 }
