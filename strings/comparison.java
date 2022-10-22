@@ -14,6 +14,7 @@ String c = new String("kazim");
 System.out.println(b==c);
 // values are same, but the object is diff so faklse
 // when we need ro check for values, use l.equals method
-System.out.println();
+System.out.println(b.equals(c));
+// gave true becs it cares about only the valuea
     }
 }
