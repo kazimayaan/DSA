@@ -11,6 +11,7 @@ public class output {
         extracted();
         // out is a variable of type printstream
         // printstream si a class and has methods print and println
+        // everything is getting converterd to string then printed
 
         
     }
