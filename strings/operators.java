@@ -16,5 +16,8 @@ public class operators {
         // integer is comverted to Integer and will call toString()
         // same as after few steps ("a"+ "1");
         System.out.println("Kunal" + new ArrayList<>());
+        System.out.println("kazim " + new Integer(3));
+        // marke for removalo
+        ;
     }
 }
