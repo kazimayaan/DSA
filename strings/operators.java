@@ -24,6 +24,7 @@ public class operators {
         // - cannot be used, only _+ 
         // + is overloaded on string objects
         // concats more than aione strings
+        // + is only operatpor that is overloaded for strings
         
     }
 }
