@@ -7,5 +7,6 @@ public class stringbuilderf {
             char ch = (char)('a'+1);
             builder.append(ch);
         }
+        System.out.println(builder);
     }
 }
