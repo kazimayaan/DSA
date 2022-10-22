@@ -1,5 +1,7 @@
 package strings;
 
+import java.util.ArrayList;
+
 public class operators {
     public static void main(String[] args) {
         System.out.println('a'+'b');
@@ -10,5 +12,9 @@ public class operators {
         System.out.println('A'+1);
         System.out.println("a"+1);
         // string witha number its conmcatenation
+        // note when an integer is concatenated 
+        // integer is comverted to Integer and will call toString()
+        // same as after few steps ("a"+ "1");
+        System.out.println("Kunal" + new ArrayList<>());
     }
 }
