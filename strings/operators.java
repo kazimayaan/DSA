@@ -22,6 +22,8 @@ public class operators {
         // + used only with primitives and objects, only condition is at least one should be string
         // the result will be a string
         // - cannot be used, only _+ 
-        // + is overloaded from 
+        // + is overloaded on string objects
+        // concats more than aione strings
+        
     }
 }
