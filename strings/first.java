@@ -17,5 +17,7 @@ public class first {
         System.out.println(name);
         name = "kazim";
         System.out.println(name);
+        // here we are not changing the Kazim Ayaan P S object, java just created a new object of kazim
+        
     }
 }
