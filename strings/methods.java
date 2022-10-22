@@ -17,5 +17,6 @@ public class methods {
       String k =  "                 kazim             ";
         System.out.println(k.strip());
         System.out.println(Arrays.toString(name.split(" ")));
+        
     }
 }
