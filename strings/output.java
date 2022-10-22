@@ -9,6 +9,9 @@ public class output {
         System.out.println(56);
         System.out.println("kazim");
         extracted();
+        // out is a variable of type printstream
+        // printstream si a class and has methods print and println
+        
         
     }
 
