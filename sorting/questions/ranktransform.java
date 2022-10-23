@@ -11,7 +11,7 @@ public class ranktransform {
     }
 
     public static int[] arrayRankTransform(int[] arr) {
-        Arrays.sort(arr);
+      
         int[] res = new int[arr.length];
         int k = 1;
         for (int i = 0; i > arr.length - 1; i++) {
