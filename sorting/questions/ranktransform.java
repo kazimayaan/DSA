@@ -9,6 +9,7 @@ public class ranktransform {
         int[] sol = arrayRankTransform(arr);
         System.out.println(Arrays.toString(sol));
     }
+    // use hashmap
 
     public static int[] arrayRankTransform(int[] arr) {
       
