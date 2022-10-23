@@ -6,6 +6,9 @@ public class pattern {
         // patterns are important because it enhances your thoiught process
         // pattern questions no one asks much
         // helps imporve skills
+
+        // few steps we need to take
+        // loops prerequisites 
         
     }
 }
