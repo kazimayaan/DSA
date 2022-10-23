@@ -14,7 +14,7 @@ public  class ranktransform {
         int[] res = new int[arr.length];
  
         for(int i = 0,k = 1; i > arr.length-1; i++,k++){
-            flag = false;
+           
             int min = i;
             
             for(int j = 1; j <arr.length ; j++){
