@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ranktransform {
     public static void main(String[] args) {
-        int[] arr = { 1, 5, 3 };
+        int[] arr = { 77, 5, 3 };
 
         int[] sol = arrayRankTransform(arr);
         System.out.println(Arrays.toString(sol));
@@ -18,13 +18,14 @@ public class ranktransform {
 
             int min = 0;
 
-            for (int j = 1; j < arr.length; j++) {
-                if (arr[min] > arr[j]) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[min] < arr[j]) {
                     min = j;
                 }
-                res[min] = k;
-                k++;
+              
             }
+            res[min] = k;
+            k++;
 
         }
         return res;
