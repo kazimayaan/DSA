@@ -1,6 +1,7 @@
 package patterns;
 
-public class pattern2 {
+public class pattern4 {
+    
     public static void main(String[] args) {
         pattern(5);
         // learning in public
@@ -9,30 +10,25 @@ public class pattern2 {
         // helps imporve skills
 
         // few steps we need to take
-        // loops prerequisites
+        // loops prerequisites 
 
         // 1, run the outer for loop the number of times you have the lines
-        // notice the rows and it becomes no of lines = no of rows = no of times outer
-        // loop will run
-        // step 2 how many columns are there with each row, or types of elements in the
-        // pattern
-        // step three check what do yoy need to print
-        // only three steps
+        // notice the rows and it becomes no of lines = no of rows = no of times outer loop will run
+// step 2 how many columns are there with each row, or types of elements in the pattern
+// step three check what do yoy need to print
+// only three steps
 
-        // try to find the formula relating rows and columns
 
     }
-
-    static void pattern(int n) {
+    static void pattern(int n){
         for (int row = 1; row <= n; row++) {
 
-            for (int column = n; column >= row; column--) {
+            for(int column = 1; column <= row; column++){
                 System.out.print("*");
             }
             // we are printing a new line;
             System.out.println();
-
+            
         }
-
     }
 }
