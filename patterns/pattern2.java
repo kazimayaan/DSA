@@ -20,6 +20,7 @@ public class pattern2 {
         // only three steps
 
         // try to find the formula relating rows and columns
+        
 
     }
 
