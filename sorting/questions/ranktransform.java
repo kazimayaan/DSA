@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class ranktransform {
     public static void main(String[] args) {
         int[] arr = { 77, 5, 3 };
-
+        int[] ss = {40,10,20,30};
+      Arrays.sort(ss);
         int[] sol = arrayRankTransform(arr);
         System.out.println(Arrays.toString(sol));
     }
