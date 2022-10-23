@@ -12,13 +12,13 @@ public  class ranktransform {
     public static int[] arrayRankTransform(int[] arr) {
         Arrays.sort(arr);
         int[] res = new int[arr.length];
- 
-        for(int i = 0,k = 1; i > arr.length-1; i++,k++){
+        int k = 1;
+        for(int i = 0; i > arr.length-1; i++){
            
-            int min = i;
+            int min = 0;
             
             for(int j = 1; j <arr.length ; j++){
-                if(arr[i]>arr[j]){
+                if(arr[min]>arr[j]){
                 min = j;
             }
                 res[min]=k;
