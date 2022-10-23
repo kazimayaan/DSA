@@ -32,7 +32,7 @@ public class pattern9 {
 
                 System.out.print(column + " ");
             }
-            for (int column = 2; column <= row ;  column++) {
+            for (int column = 2; column <= cols;  column++) {
 
                 System.out.print(column+ " ");
             }
