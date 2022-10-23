@@ -6,6 +6,7 @@ public class pattern9 {
 
     public static void main(String[] args) {
         pattern(5);
+        // pattern17(5);
     }
 
     static void pattern(int n) {
@@ -16,16 +17,14 @@ public class pattern9 {
             
            int cols = row;
             if(row>n){
-                cols= n - (row - n);
+                cols= 2*n -row;
             }
             
             
-            int ns;
             
-             ns = n-cols;
            
             
-            for (int k = 0; k < ns; k++) {
+            for (int k = 0; k < n-cols; k++) {
                 System.out.print("  ");
             }
 
@@ -41,6 +40,25 @@ public class pattern9 {
             // we are printing a new line;
             System.out.println();
 
+        }
+    }
+    static void pattern17(int n) {
+        for (int row = 1; row <= 2 * n; row++) {
+
+            int c = row > n ? 2 * n - row: row;
+
+            for (int space = 0; space < n-c; space++) {
+                System.out.print("  ");
+            }
+
+            for (int col = c; col >= 1; col--) {
+                System.out.print(col + " ");
+            }
+            for (int col = 2; col <= c; col++) {
+                System.out.print(col + " ");
+            }
+
+            System.out.println();
         }
     }
 
