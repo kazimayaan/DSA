@@ -2,6 +2,7 @@ package patterns;
 
 public class pattern {
     public static void main(String[] args) {
+        pattern(5);
         // learning in public
         // patterns are important because it enhances your thoiught process
         // pattern questions no one asks much
@@ -22,8 +23,10 @@ public class pattern {
         for (int row = 1; row <= n; row++) {
 
             for(int column = 1; column <= row; column++){
-                System.out.println("*");
+                System.out.print("*");
             }
+            // we are printing a new line;
+            System.out.println();
             
         }
     }
