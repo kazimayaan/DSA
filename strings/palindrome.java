@@ -39,7 +39,7 @@ public class palindrome {
             }
             return true;
     }
-    public int maxRepeating(String sequence, String word) {
+    public static int maxRepeating(String sequence, String word) {
         int c=0;
         String add=word;
         while(sequence.contains(word)==true)
