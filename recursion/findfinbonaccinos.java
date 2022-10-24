@@ -6,7 +6,8 @@ public class findfinbonaccinos {
        int n =  fibonacci(6);
        System.out.println(n);
     }
-    c
+    
+    
 
     private static int fibonacci(int i) {
 int n;
