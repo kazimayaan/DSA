@@ -8,6 +8,7 @@ public class numbersex {
 
     // functionm calss working
     // first main function is called
+    // refer notes
 
 public static void main(String[] args) {
     print1(1);
