@@ -3,11 +3,12 @@ package recursion;
 public class findfinbonaccinos {
 
     public static void main(String[] args) {
-       int n =  fibonacci(6);
+       int n =  fibonacci(10);
        System.out.println(n);
     }
-    
-    
+    // very inefficient
+    // 
+
 
     private static int fibonacci(int i) {
 int n;
