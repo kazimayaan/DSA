@@ -9,8 +9,6 @@ public class printhello {
 
     private static void hello(int i) {
         System.out.println("hello world");
-        for (int j = 1; j <=i; j++) {
-            hello(j);
-        }
+       \
     }
 }
