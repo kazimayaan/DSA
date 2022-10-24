@@ -2,7 +2,7 @@ package recursion;
 
 public class findfinbonaccinos {
     public static void main(String[] args) {
-       int n =  fibonacci(6);
+       int n =  fibonacci(4);
        System.out.println(n);
     }
 
