@@ -3,11 +3,12 @@ package recursion;
 public class findfinbonaccinos {
 
     public static void main(String[] args) {
-       int n =  fibonacci(10);
+       int n =  fibonacci(50);
        System.out.println(n);
     }
     // very inefficient
-    // 
+    // golden ratio of power of n
+
 
 
     private static int fibonacci(int i) {
