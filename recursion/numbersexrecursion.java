@@ -6,18 +6,18 @@ public class numbersexrecursion {
        prinet(1);
     }
     private static void prinet(int i) {
-        if(i == 5){
-            System.out.println(i);
+        if(i == 500){
+            System.out.print(i);
             return;
         }
-            System.out.println(i);
+            System.out.print(i+ " ");
             prinet(i+1);
             // need base condition 
             // infinite erecu is stack overflow
             // lol
             // we need base condition, body and recursive calls
         
-            
+
 
     }
     private static void print(int i) {
