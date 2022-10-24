@@ -13,6 +13,7 @@ public class numbersexrecursion {
             System.out.println(i);
             prinet(i+1);
             // need base condition 
+            // infinite erecu is stack overflow
         
 
     }
