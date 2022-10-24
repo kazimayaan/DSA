@@ -5,9 +5,12 @@ public class numbersex {
     // print first five numbers
     // notice all are doin g same things
     // instead of creating new function
-    
+
+    // functionm calss working
+    // first main function is called
+
 public static void main(String[] args) {
-    print1(0);
+    print1(1);
 }
 
 private static void print1(int i) {
