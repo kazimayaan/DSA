@@ -3,7 +3,7 @@ package recursion;
 public class binarysearch {
     public static void main(String[] args) {
         int[] arr = {1,2,4,5,6,77,88};
-        int target = 10;
+        int target = 88;
         int index = binarysearch(arr,target, 0 , arr.length-1);
         if(index==-1){
             System.out.println("not found sorry, enter again");
