@@ -1,7 +1,8 @@
 package recursion;
 
 // import javax.xml.transform.Source;
-
+// thios is not recursion
+// just to understand concepts of function calls
 public class printhello {
     public static void main(String[] args) {
         hello(5);
