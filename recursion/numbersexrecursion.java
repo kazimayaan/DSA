@@ -11,5 +11,8 @@ i++;
         if(i < 6){
             print(i);
         }
+        else{
+            return;
+        }
     }
 }
