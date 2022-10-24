@@ -9,6 +9,7 @@ public class findfinbonaccinos {
 int n = 0;
 if(i == 1 || i == 0){
     return i;
+    
 }
         while(i>1){
 
