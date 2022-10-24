@@ -2,7 +2,7 @@ package recursion;
 
 public class numbersexrecursion {
     public static void main(String[] args) {
-       print(1) ;
+       print(3) ;
     }
     private static void print(int i) {
  
