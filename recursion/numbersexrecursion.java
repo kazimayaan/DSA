@@ -15,6 +15,7 @@ public class numbersexrecursion {
             // need base condition 
             // infinite erecu is stack overflow
             // lol
+            // we need base condition, body and recursive calls
         
 
     }
