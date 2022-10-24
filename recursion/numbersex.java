@@ -3,6 +3,9 @@ package recursion;
 public class numbersex {
     // write a function that takes in a number and prints it, 
     // print first five numbers
+    // notice all are doin g same things
+    // instead of creating new function
+    
 public static void main(String[] args) {
     print1(0);
 }
