@@ -10,8 +10,10 @@ public class numbersexrecursion {
             System.out.println(i);
             return;
         }
-        prinet(i);
-        i++;
+            System.out.println(i);
+            prinet(i+1);
+            // need base condition 
+        
 
     }
     private static void print(int i) {
