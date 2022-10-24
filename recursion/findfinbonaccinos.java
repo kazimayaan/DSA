@@ -2,12 +2,12 @@ package recursion;
 
 public class findfinbonaccinos {
     public static void main(String[] args) {
-       int n =  fibonacci(4);
+       int n =  fibonacci(0);
        System.out.println(n);
     }
 
     private static int fibonacci(int i) {
-int n = 0;
+int n;
 if(i == 1 || i == 0){
     return i;
 
