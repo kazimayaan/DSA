@@ -4,15 +4,40 @@ public class numbersex {
     // write a function that takes in a number and prints it, 
     // print first five numbers
 public static void main(String[] args) {
-    print1(1);
+    print1(0);
 }
 
 private static void print1(int i) {
     System.out.println(i);
-    if(i< 5){
-        i++;
-        print1(i);
-    }
+    
+    
+    print2(i+1);
+
+}
+private static void print2(int i) {
+    System.out.println(i);
+    
+    
+    print3(i+1);
+
+}
+private static void print3(int i) {
+    System.out.println(i);
+    
+    
+    print4(i+1);
+
+}
+private static void print4(int i) {
+    System.out.println(i);
+    
+    
+    print5(i+1);
+
+}
+private static void print5(int i) {
+    System.out.println(i);
+    
     
     
 
