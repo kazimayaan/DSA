@@ -31,6 +31,7 @@ int digit =2 * n-1;
                 int atEveryIndex = originalN - Math.min(Math.min(row, col), Math.min(n - row, n - col));
                 System.out.print(atEveryIndex + " ");
             }
+            
             System.out.println();
         }
     }
