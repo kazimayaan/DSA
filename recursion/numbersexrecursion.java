@@ -14,6 +14,7 @@ public class numbersexrecursion {
             prinet(i+1);
             // need base condition 
             // infinite erecu is stack overflow
+            // lol
         
 
     }
