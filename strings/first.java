@@ -4,7 +4,7 @@ public class first {
     // String si most commonly used class in java
     // every string we create is an objecy, the name is referenve variable
     // referenve points point to some object always.
-    // internally :_
+    // internally :m_
     // string pool : inyernallu yhe string its a seperate memory structure for
     // stringsiin heap memory
     // string pool is making memory more optimised
