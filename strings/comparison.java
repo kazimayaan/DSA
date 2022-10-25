@@ -18,6 +18,6 @@ public class comparison {
         // gave true becs it cares about only the valuea
         // internaklly its a byte array or char array
         // use charAt for strings
-        
+
     }
 }
