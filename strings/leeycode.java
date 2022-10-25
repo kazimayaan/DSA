@@ -9,12 +9,10 @@ public class leeycode {
         System.out.println(Arrays.toString(ll));
 
     }
-    private static String lol(String s)
-    {
+
+    private static String lol(String s) {
         String[] lol = s.split(" ");
         System.out.println(Arrays.toString(lol));
-        
-        
 
         String ss = "s";
         return ss;
