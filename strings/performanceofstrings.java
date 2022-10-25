@@ -12,7 +12,7 @@ public class performanceofstrings {
         }
         System.out.println(series);
 
- series.
+
 
 
         // probkem ad=nd wht its a badser soluttion
