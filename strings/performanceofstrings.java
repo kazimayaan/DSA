@@ -3,6 +3,8 @@ package strings;
 public class performanceofstrings {
     // important for string coding rounds
 
+
+    
     public static void main(String[] args) {
         String series = "";
         for (int i = 0; i < 26; i++) {
@@ -14,7 +16,7 @@ public class performanceofstrings {
 
 
 
-        
+
         // probkem ad=nd wht its a bad soluttion
         // new object is being cteayed everytiume
         // in the above for loop
