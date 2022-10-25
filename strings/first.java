@@ -11,7 +11,7 @@ public class first {
     // strings are immutable
     // immutablility : cannot change the object, but we can create new ones\
     // immutablility for security reasons
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         String kazim = "KAZIM";
         System.out.println(kazim);
         String name = "kazim Ayaan P S";
