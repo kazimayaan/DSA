@@ -12,6 +12,8 @@ public class performanceofstrings {
         }
         System.out.println(series);
 
+
+
         
         // probkem ad=nd wht its a bad soluttion
         // new object is being cteayed everytiume
