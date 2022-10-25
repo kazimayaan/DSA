@@ -11,10 +11,6 @@ public class performanceofstrings {
             series = series + ch;
         }
         System.out.println(series);
-
-
-
-
         // probkem ad=nd wht its a badser soluttion
         // new object is being cteayed everytiume
         // in the above for loop
