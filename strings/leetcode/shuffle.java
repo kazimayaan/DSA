@@ -9,7 +9,6 @@ public class shuffle {
         String res = restoreString(s, indices);
         System.out.println(res);
 
-        s
     }
 
     public static String restoreString(String s, int[] indices) {
