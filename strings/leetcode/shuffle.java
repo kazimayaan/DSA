@@ -6,7 +6,7 @@ public class shuffle {
         int[] indices = new int[s.length()];
         restoreString(s,indices);
     }
-    public String restoreString(String s, int[] indices) {
+    public static String restoreString(String s, int[] indices) {
         StringBuilder res = new StringBuilder();
         res.setLength(indices.length);
         int i = 0;
