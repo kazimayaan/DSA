@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class shuffle {
     public static void main(String[] args) {
         String s = "codeleet";
-        int[] indices = new int[s.length()];
+        int[] indices = {4,5,6,7,0,2,1,3};
       String res =   restoreString(s,indices);
         System.out.println(res);
     }
