@@ -4,7 +4,7 @@ public class shuffle {
     public static void main(String[] args) {
         String s = "codeleet";
         int[] indices = new int[s.length()];
-
+        restoreString(s,indices);
     }
     public String restoreString(String s, int[] indices) {
         StringBuilder res = new StringBuilder();
