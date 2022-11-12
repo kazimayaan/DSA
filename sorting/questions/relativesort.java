@@ -25,6 +25,7 @@ public class relativesort {
             for(int i=0;  i<arr2.length;  i++){
                 // insert the current element of arr2 till freqeuncy of this element in arr1 becomes 0
                 while((frequencies[arr2[i]]--) > 0) 
+                
                     arr1[index++] = arr2[i];
             }
             
