@@ -1,4 +1,7 @@
+package binarysearch.problems;
 import java.util.Arrays;
+
+
 
 public class leetcode4bs{
 
