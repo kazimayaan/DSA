@@ -7,7 +7,11 @@ public class arrduplicate {
     }
 
     private static int dupl(int[] arr) {
-
+        int unique = 0;
+        for(int n : arr){
+            unique ^= n;
+        }
+        return unique;
         
     }
 }
