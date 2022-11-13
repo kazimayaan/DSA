@@ -5,7 +5,7 @@ public class singlethreetimrs {
         int[] arr = {1,2,2,1,4,1,2,3,4,4};
         System.out.println(dupl(arr));
         int lol = 0;
-       
+    //    tenth
         
     }
 
