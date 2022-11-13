@@ -8,6 +8,7 @@ public class singlethreetimrs {
         int lool = lol ^=43455;
         System.out.println(lool);
     }
+    
 
     private static int dupl(int[] arr) {
         int unique = 0;
