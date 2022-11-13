@@ -6,6 +6,7 @@ public class odd {
         System.out.println(isodd(i));
     }
 
+    
     private static boolean isodd(int i) {
         return (i&1)==1;
     }
