@@ -4,6 +4,9 @@ public class arrduplicate {
     public static void main(String[] args) {
         int[] arr = {1,2,1,2,3,4,4};
         System.out.println(dupl(arr));
+        int lol = 0;
+        int lool = lol ^=43455;
+        System.out.println(lool);
     }
 
     private static int dupl(int[] arr) {
@@ -12,7 +15,7 @@ public class arrduplicate {
             unique ^= n;
         }
         return unique;
-        
+
         
     }
 }
