@@ -12,11 +12,12 @@ public class setbits {
         }
         System.out.println(ans);
         int m= 45;
+        System.out.println(Integer.toBinaryString(m));
         System.out.println("===============better solution===========");
         int c = 0;
         while(m>0){
             c++;
-            m = m-(m& -1);
+            m = m-(m & -m);
         }
         System.out.println(c);
 
