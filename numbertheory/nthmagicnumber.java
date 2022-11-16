@@ -5,7 +5,9 @@ public class nthmagicnumber {
         int n = 8;
 
         int ans = 0;
-
+        while(n>0){
+            
+        }
 
 
 
