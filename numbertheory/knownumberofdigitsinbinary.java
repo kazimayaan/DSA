@@ -10,7 +10,9 @@ public class knownumberofdigitsinbinary {
         System.out.println(ans);
         int counter=0;
         while(n>0){
-
+            counter++;
+            n= n>>1;
         }
+        System.out.println(counter);
     }
 }
