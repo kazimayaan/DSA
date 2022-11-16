@@ -6,7 +6,9 @@ public class nthmagicnumber {
 
         int ans = 0;
         while(n>0){
-            
+            int last = n&1;
+            n= n>>1;
+            ans = Math.pow(ans, last)
         }
 
 
