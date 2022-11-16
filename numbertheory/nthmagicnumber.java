@@ -5,10 +5,13 @@ public class nthmagicnumber {
         int n = 8;
 
         int ans = 0;
+        int base = 5;
         while(n>0){
             int last = n&1;
             n= n>>1;
-            ans = Math.pow(ans, last)
+            ans = ans+ last*base;
+            base = base * 5;
+
         }
 
 
