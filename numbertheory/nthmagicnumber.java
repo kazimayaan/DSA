@@ -2,7 +2,7 @@ package numbertheory;
 
 public class nthmagicnumber {
     public static void main(String[] args) {
-        int n = 8;
+        int n = 6;
 
         int ans = 0;
         int base = 5;
@@ -11,7 +11,7 @@ public class nthmagicnumber {
             n= n>>1;
             ans = ans+ last*base;
             base = base * 5;
-            
+
 
         }
 
