@@ -15,4 +15,5 @@ public class powerbinary {
         }
         System.out.println(ans);
     }
+    // complexity is log of power
 }
