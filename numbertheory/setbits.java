@@ -16,9 +16,9 @@ public class setbits {
         int c = 0;
         while(m>0){
             c++;
-            n = n-(n& -1);
+            m = m-(m& -1);
         }
         System.out.println(c);
-        
+
     }
 }
