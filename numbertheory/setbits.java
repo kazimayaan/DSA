@@ -11,5 +11,8 @@ public class setbits {
             n= n>>1;
         }
         System.out.println(ans);
+
+        System.out.println("===============better solution===========");
+        
     }
 }
