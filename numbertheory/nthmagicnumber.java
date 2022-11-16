@@ -11,6 +11,7 @@ public class nthmagicnumber {
             n= n>>1;
             ans = ans+ last*base;
             base = base * 5;
+            
 
         }
 
