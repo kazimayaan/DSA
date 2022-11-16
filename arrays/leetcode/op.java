@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class op {
     public static void main(String[] args) {
-        int[] nums = {1,2,0,4,0,0};
+        int[] nums = {1,2,0,4,0,0,3};
         int[] arr= applyOperations(nums);
         System.out.println(Arrays.toString(arr));
 
