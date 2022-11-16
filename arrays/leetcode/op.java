@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class op {
     public static void main(String[] args) {
-        int[] nums = {1,2,0,4,0,0,3};
+        int[] nums = {1,2,0,4,0,0};
         int[] arr= applyOperations(nums);
         System.out.println(Arrays.toString(arr));
 
-        
+
     }
     public static int[] applyOperations(int[] nums) {
         for(int i =0; i < nums.length-1; i++){
@@ -21,7 +21,8 @@ public class op {
         
         for (int i =0; i< nums.length;i++){
             if(nums[i]!=0){
-                nums[i]=nums[z];
+                nums[z]=nums[i];
+
                 z++;
             }
         }
