@@ -6,7 +6,7 @@ public class gcd {
         System.out.println(euclidiangcd(3, 7));
         System.out.println("LCM ");
         int lcm = a*b/euclidiangcd(a,b);
-        System.out.println(lcm);
+        System.out.print(lcm);
     }
 
     public static int euclidiangcd(int a, int b) {
