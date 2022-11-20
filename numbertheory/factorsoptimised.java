@@ -10,6 +10,7 @@ public class factorsoptimised {
                 int x = n/i;
 
                 System.out.print(i+ " " + x+" ");
+                // o(sqrt(n)) complexity
             }
         }
     }
