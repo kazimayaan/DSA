@@ -20,7 +20,7 @@ public class stringxoer {
             return false;
         }
        for(int i = 0; i< s.length(); i++){
-           op = s.charAt(i) ^ t.charAt(i);
+           op ^= s.charAt(i) ^ t.charAt(i);
            
        }
         if(op==0){
