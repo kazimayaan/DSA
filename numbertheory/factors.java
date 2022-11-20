@@ -5,6 +5,8 @@ public class factors {
         factors(50);
     }
     public static void factors(int n ){
-        
+        for(int i = 0; i <= n; i++){
+            if()
+        }
     }
 }
