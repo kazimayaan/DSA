@@ -2,7 +2,7 @@ package numbertheory;
 
 public class gcd {
     public static void main(String[] args) {
-        int a = 3; int b = 7;
+        int a = 2; int b = 7;
         System.out.println(euclidiangcd(3, 7));
         System.out.println("LCM ");
         int lcm = a*b/euclidiangcd(a,b);
