@@ -6,7 +6,7 @@ public class factors {
     }
     public static void factors(int n ){
         for(int i = 0; i <= n; i++){
-            if()
+            if(n%1==0)
         }
     }
 }
