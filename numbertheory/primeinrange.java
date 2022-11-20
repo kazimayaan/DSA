@@ -10,7 +10,7 @@ public class primeinrange {
         }
     }
     private static boolean isprime(int n) {
-
+ 
         if(n<2){
             return false;
         }
