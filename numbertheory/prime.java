@@ -2,7 +2,7 @@ package numbertheory;
 
 public class prime {
     public static void main(String[] args) {
-        int num = 14;
+        int num = 50;
 for(int i = 0; i < num+1; i++ ){
 
 
