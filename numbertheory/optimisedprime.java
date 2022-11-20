@@ -1,10 +1,21 @@
 package numbertheory;
 
+import java.util.Arrays;
+
 public class optimisedprime {
     public static void main(String[] args) {
-        
+        int n = 40;
+        boolean[] primes = new boolean[n+1];
+        sieve(n,primes);
+        System.out.println(Arrays.toString(primes));
     }
-    static void sieve(boolean[] prime){
-        
+    static void sieve(int n, boolean[] prime){
+
+        for(int i = 2; i*i<=n; i++){
+            if(prime[i]==false){
+                
+            }
+        }
+
     }
 }
