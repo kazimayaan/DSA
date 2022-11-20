@@ -13,11 +13,17 @@ public class optimisedprime {
 
         for(int i = 2; i*i<=n; i++){
             if(prime[i]==false){
-                for(int j = i*i; j< n; j+=i){
+                for(int j = i*2; j<=n; j+=i){
                     prime[j]=true;
                 }
             }
         }
+        for(int i = 2; i<= n; i++){
+            if(!prime[i]){
+                System.out.println(i+ " ");
+            }
+        }
+        
 
     }
 }
