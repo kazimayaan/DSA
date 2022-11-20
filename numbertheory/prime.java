@@ -3,7 +3,11 @@ package numbertheory;
 public class prime {
     public static void main(String[] args) {
         int num = 14;
-        System.out.println(isprime(num));
+for(int i = 0; i < num+1; i++ ){
+
+
+        System.out.println(i + "is" + isprime(i));
+}
     }
 
     private static boolean isprime(int n) {
