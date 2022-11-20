@@ -11,8 +11,12 @@ public class factorsoptimised {
                 if(x==i){
                     System.out.println(i+" ");
                 }
+                else{
+
+                
 
                 System.out.print(i+ " " + x+" ");
+                }
                 // o(sqrt(n)) complexity
             }
         }
