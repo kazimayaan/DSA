@@ -6,7 +6,9 @@ public class factors {
     }
     public static void factors(int n ){
         for(int i = 0; i <= n; i++){
-            if(n%1==0)
+            if(n%1==0){
+                System.out.print(i+ " ");
+            }
         }
     }
 }
