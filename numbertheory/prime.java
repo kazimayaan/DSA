@@ -6,7 +6,7 @@ public class prime {
 for(int i = 0; i < num+1; i++ ){
 
 
-        System.out.println(i + "is" + isprime(i));
+        System.out.println(i + " is " + isprime(i));
 }
     }
 
