@@ -7,7 +7,7 @@ public class optimisedprime {
         int n = 40;
         boolean[] primes = new boolean[n+1];
         sieve(n,primes);
-        System.out.println(Arrays.toString(primes));
+        // System.out.println(Arrays.toString(primes));
     }
     static void sieve(int n, boolean[] prime){
 
