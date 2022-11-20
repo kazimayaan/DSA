@@ -20,7 +20,7 @@ public class optimisedprime {
         }
         for(int i = 2; i<= n; i++){
             if(!prime[i]){
-                System.out.println(i+ " ");
+                System.out.print(i+ " ");
             }
         }
         
