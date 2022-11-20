@@ -8,6 +8,9 @@ public class factorsoptimised {
         for(int i = 1; i*i <= n; i++){
             if(n%i==0){
                 int x = n/i;
+                if(x==i){
+                    System.out.println(i+" ");
+                }
 
                 System.out.print(i+ " " + x+" ");
                 // o(sqrt(n)) complexity
