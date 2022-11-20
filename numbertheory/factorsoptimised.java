@@ -2,7 +2,7 @@ package numbertheory;
 
 public class factorsoptimised {
     public static void main(String[] args) {
-        factors(20);
+        factors(36);
     } 
     public static void factors(int n ){
         for(int i = 1; i*i <= n; i++){
