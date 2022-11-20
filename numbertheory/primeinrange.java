@@ -8,6 +8,7 @@ public class primeinrange {
                 System.out.println(i + " isprime ");
             }
         }
+        
     }
     private static boolean isprime(int n) {
  
