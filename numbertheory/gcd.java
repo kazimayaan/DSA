@@ -2,7 +2,7 @@ package numbertheory;
 
 public class gcd {
     public static void main(String[] args) {
-        System.out.println(euclidiangcd(4, 9));
+        System.out.println(euclidiangcd(3, 7));
         ;
     }
 
