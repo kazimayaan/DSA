@@ -10,6 +10,7 @@ public class factorsoptimised {
                 int x = n/i;
                 if(x==i){
                     System.out.println(i+" ");
+                    // ignpring duplicates
                 }
                 else{
 
