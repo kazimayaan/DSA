@@ -12,7 +12,7 @@ public class newtonsqrt {
         while(true){
 
             root = 0.5 * (x+(n/x));
-            if(Math.abs(root -x )<0.5){
+            if(Math.abs(root -x )<0.1){
 
             
             break;
