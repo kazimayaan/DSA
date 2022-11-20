@@ -4,7 +4,7 @@ public class newtonsqrt {
     public static void main(String[] args) {
 
 
-        System.out.println(sqrt(40));
+        System.out.println(sqrt(36));
     }
     static double sqrt(double n){
         double x = n;
