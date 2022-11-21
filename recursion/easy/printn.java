@@ -2,8 +2,8 @@ package recursion.easy;
 
 public class printn {
     public static void main(String[] args) {
-        printrev(10);
-        print(5);
+        
+        printboth(5);
     }
 
     private static void printrev(int i) {
@@ -19,10 +19,22 @@ public class printn {
         if(i ==0){
             return;
         }
-        
+
         // soprint(i);
         System.out.print(i+ " ");
         print(i-1);
+
+    }
+    private static void printboth(int i) {
+        if(i ==0){
+            return;
+        }
+
+        // soprint(i);
+       
+        System.out.print(i+ " ");
+        printboth(i-1);
+        System.out.print(i+ " ");
 
     }
 }
