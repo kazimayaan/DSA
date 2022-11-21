@@ -10,8 +10,8 @@ public class printn {
             return;
         }
         // soprint(i);
-        System.out.println(i);
         print(i-1);
+        System.out.println(i);
 
     }
 }
