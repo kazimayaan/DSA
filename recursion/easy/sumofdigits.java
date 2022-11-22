@@ -1,7 +1,7 @@
 package recursion.easy;
 public class sumofdigits {
     public static void main(String[] args) {
-        int n = 1056;
+        int n = 1342;
         int sum = sumofdgits(n);   System.out.println(sum);
     }
 
