@@ -19,16 +19,19 @@ public class nextgreatelement {
             digits++;
         }
        
-        for ( int i = list.size()-1; i> 0 ; i--){
-            if(list.get(i)>list.get(i-1)){
-                 Collections.swap(list, i, i-1);
+        for ( int i = 0; i<list.size()-1 ; i++){
+            int y = list.get(i);
+            int z = list.get(i+1);
+
+            if(list.get(i)>list.get(i+1)){
+                 Collections.swap(list, i, i+1);
                 break;
             }
 }
         int ans = 0;
-        for(int nos: list)  
+      for(int j = list.size()-1; j>=0;j--)
                     {  
-                    ans = ans *10 + nos;
+                    ans = ans *10 + list.get(j);
                     }  
         if(ans==n){
             return -1;
