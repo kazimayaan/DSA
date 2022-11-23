@@ -6,6 +6,7 @@ import java.util.Collections;
 public class nextgreatelement {
     public static void main(String[] args) {
         int n =230241;
+        // 13234321
         System.out.println(nextGreaterElement(n));
 
     }
@@ -24,7 +25,9 @@ public class nextgreatelement {
             int y = list.get(i);
             int z = list.get(i+1);
             if(y<z){
-                minin = Math.min(minin,y);
+                if(list.get(minin)>y){
+                    minin = i;
+                }
             }
             if(list.get(i)>list.get(i+1)){
                  Collections.swap(list, i, minin);
