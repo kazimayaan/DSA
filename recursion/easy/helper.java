@@ -10,7 +10,7 @@ public class helper {
         int n = helper(num, 0);
         return n;
     }
-    public int helper(int n , int m){
+    public static int helper(int n , int m){
         if(n==0){
             return m;
         }
