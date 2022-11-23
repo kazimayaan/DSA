@@ -7,7 +7,7 @@ public class nextgreatelement {
     public static void main(String[] args) {
         int n =230241;
         // 13234321
-        System.out.println(nextGreaterElement(12));
+        System.out.println(nextGreaterElement(101));
 
     }
     public static int nextGreaterElement(int n) {
