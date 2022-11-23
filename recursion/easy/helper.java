@@ -14,7 +14,7 @@ public class helper {
         if(n==0){
             return m;
         }
-        if(n%2==2){
+        if(n%2==0){
             return helper(n/2,m+1);
         }
         else{
