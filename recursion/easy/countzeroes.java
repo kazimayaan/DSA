@@ -2,7 +2,7 @@ package recursion.easy;
 
 public class countzeroes {
     public static void main(String[] args) {
-        int n = 100101011;
+        int n = 30210;
         System.out.println(cz(n));
     }
 
