@@ -7,7 +7,15 @@ public class palindrome {
     }
 
 private static boolean ispali(int n) {
-        return null;
+      int m = rev(n);
+      if(m==n){
+        return true;
+      }
+      return false;
     }
+
+private static int rev(int n) {
+    return 0;
+}
 
 }
