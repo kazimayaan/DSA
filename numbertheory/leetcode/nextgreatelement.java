@@ -1,6 +1,7 @@
 package numbertheory.leetcode;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class nextgreatelement {
     public static void main(String[] args) {
