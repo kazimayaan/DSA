@@ -1,5 +1,7 @@
 package numbertheory.leetcode;
 
+import java.util.ArrayList;
+
 public class nextgreatelement {
     public static void main(String[] args) {
         int n = 1234;
