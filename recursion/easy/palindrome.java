@@ -4,6 +4,8 @@ public class palindrome {
     public static void main(String[] args) {
         int n = 123431;
         System.out.println(ispali(n));
+        System.out.println(ispali(n));
+        
     }
 
 private static boolean ispali(int n) {
