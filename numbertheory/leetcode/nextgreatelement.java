@@ -5,7 +5,7 @@ public class nextgreatelement {
         int n = 1234;
 
     }
-    public int nextGreaterElement(int n) {
+    public static int nextGreaterElement(int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();  
         int x = n;
         int digits = 0;
