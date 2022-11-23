@@ -6,7 +6,7 @@ public class palindrome {
         System.out.println(ispali(n));
     }
 
-    private static char[] ispali(int n) {
+private static boolean ispali(int n) {
         return null;
     }
 
