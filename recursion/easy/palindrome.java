@@ -2,7 +2,7 @@ package recursion.easy;
 
 public class palindrome {
     public static void main(String[] args) {
-        int n = 1234321;
+        int n = 123431;
         System.out.println(ispali(n));
     }
 
