@@ -11,5 +11,6 @@ public class factorial {
             return 1;
         }
         return i*fact(i-1);
+        
     }
 }
