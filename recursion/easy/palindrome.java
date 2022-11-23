@@ -8,10 +8,7 @@ public class palindrome {
 
 private static boolean ispali(int n) {
       int m = rev(n,0);
-      if(m==n){
-        return true;
-      }
-      return false;
+      return m==n;
     }
 
 private static int rev(int n, int ans) {
