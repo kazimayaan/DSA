@@ -35,6 +35,9 @@ public class nextgreatelement {
             }
 }
         int ans = 0;
+        for(int num : list){
+            System.out.println(num);
+        }
       for(int j = list.size()-1; j>=0;j--)
                     {  
                     ans = ans *10 + list.get(j);
