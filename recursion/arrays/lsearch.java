@@ -12,13 +12,12 @@ public class lsearch {
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
         ArrayList<Integer> list = new ArrayList<>();
-        
         if(index==arr.length-1){
             return list;
         }
         if(arr[index]==target){
             list.add(index);
         }
-        return lists(arr, target, index+1);
+        return list + lists(arr, target, index+1);
     }
 }
