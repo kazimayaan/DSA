@@ -12,6 +12,10 @@ public class lsearch {
         System.out.println(lists);
     }
 
+    private static ArrayList<Integer> lists1(int[] arr, int target, int i) {
+        return null;
+    }
+
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
         ArrayList<Integer> list = new ArrayList<>();
         if(index==arr.length-1){
