@@ -28,6 +28,9 @@ public class lsearch {
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
         ArrayList<Integer> list = new ArrayList<>();
         if(index==arr.length-1){
+            if(arr[index]==target){
+                
+            }
             return list;
         }
         if(arr[index]==target){
