@@ -8,6 +8,8 @@ public class lsearch {
         int target = 8;
         ArrayList<Integer> list = lists(arr,target,0);
         System.out.println(list);
+        ArrayList<Integer> lists = lists(arr,target,0);
+        System.out.println(lists);
     }
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
