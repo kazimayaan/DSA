@@ -22,7 +22,7 @@ public class lsearch {
         if(arr[i]==target){
             lists.add(i);
         }
-        return
+        return lists(arr,target,i+1,lists);
     }
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
