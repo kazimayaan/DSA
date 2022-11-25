@@ -12,7 +12,7 @@ public class lsearch {
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
         if(index==arr.length-1){
-            
+            return list;
         }
         ArrayList<Integer> list = new ArrayList<>();
 
