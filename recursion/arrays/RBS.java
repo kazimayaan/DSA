@@ -16,6 +16,14 @@ public class RBS {
             if(arr[mid]==target){
                 return mid;
             }
+            if(arr[s]<arr[mid]){
+                if(target>arr[s]){
+                    e = mid-1;
+                }
+                else{
+                    s = mid+1;
+                }
+            }
         }
         return 0;
     }
