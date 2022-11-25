@@ -11,7 +11,11 @@ public class lsearch {
     }
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
+        if(index==arr.length-1){
+            
+        }
         ArrayList<Integer> list = new ArrayList<>();
+
         if(arr[index]==target){
             list.add(index);
         }
