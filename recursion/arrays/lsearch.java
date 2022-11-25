@@ -20,8 +20,9 @@ public class lsearch {
             return lists;
         }
         if(arr[i]==target){
-            list.add(i);
+            lists.add(i);
         }
+        return
     }
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
