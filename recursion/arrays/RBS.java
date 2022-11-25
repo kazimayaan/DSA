@@ -16,7 +16,7 @@ public class RBS {
             if(arr[mid]==target){
                 return mid;
             }
-            if(arr[s]<arr[mid]){
+            if(arr[s]<=arr[mid]){
                 if(target>=arr[s] && target<=arr[mid] ){
                     e = mid-1;
                 }
@@ -24,7 +24,7 @@ public class RBS {
                     s = mid+1;
                 }
             }
-            if(arr[mid]>arr[s]){
+            if(arr[mid]>=arr[s]){
                 if(target>=arr[s] && target<= arr[mid]){
                     e = mid -1;
                 }
