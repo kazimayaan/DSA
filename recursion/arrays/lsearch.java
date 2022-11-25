@@ -18,6 +18,8 @@ public class lsearch {
         if(arr[index]==target){
             list.add(index);
         }
-        return list + lists(arr, target, index+1);
+        ArrayList<Integer> ans =   lists(arr, target, index+1);
+        list.addAll(ans);
+        return list;
     }
 }
