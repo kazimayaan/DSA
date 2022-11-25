@@ -9,7 +9,9 @@ public class RBS {
     }
 
     private static int rbs(int[] arr, int target) {
-        
+        int s = 0;
+        int e = arr.length-1;
+        int mid = 
         return 0;
     }
 }
