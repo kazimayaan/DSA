@@ -13,7 +13,7 @@ public class lsearch {
         ArrayList<Integer> lists= new ArrayList<>();
         // lists1(arr,target,0,lists);
         // System.out.println(lists);
-    }
+     }
 
     // private static void lists1(int[] arr, int target, int i, ArrayList<Integer> lists,) {
     //     if(i==arr.length-1){
