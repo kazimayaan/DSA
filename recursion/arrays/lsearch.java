@@ -11,8 +11,8 @@ public class lsearch {
         ArrayList<Integer> list = lists(arr,target,0);
         System.out.println(list);
         ArrayList<Integer> lists= new ArrayList<>();
-        lists1(arr,target,0,lists);
-        System.out.println(lists);
+        // lists1(arr,target,0,lists);
+        // System.out.println(lists);
     }
 
     private static void lists1(int[] arr, int target, int i, ArrayList<Integer> lists,) {
@@ -29,7 +29,7 @@ public class lsearch {
         ArrayList<Integer> list = new ArrayList<>();
         if(index==arr.length-1){
             if(arr[index]==target){
-                
+                list.add(index);
             }
             return list;
         }
