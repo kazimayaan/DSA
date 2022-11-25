@@ -15,15 +15,15 @@ public class lsearch {
         // System.out.println(lists);
     }
 
-    private static void lists1(int[] arr, int target, int i, ArrayList<Integer> lists,) {
-        if(i==arr.length-1){
-            return lists;
-        }
-        if(arr[i]==target){
-            lists.add(i);
-        }
-        return lists(arr,target,i+1,lists);
-    }
+    // private static void lists1(int[] arr, int target, int i, ArrayList<Integer> lists,) {
+    //     if(i==arr.length-1){
+    //         return lists;
+    //     }
+    //     if(arr[i]==target){
+    //         lists.add(i);
+    //     }
+    //     return lists(arr,target,i+1,lists);
+    // }
 
     private static ArrayList<Integer> lists(int[] arr, int target, int index) {
         ArrayList<Integer> list = new ArrayList<>();
