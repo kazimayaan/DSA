@@ -10,7 +10,8 @@ public class lsearch {
         int target = 8;
         ArrayList<Integer> list = lists(arr,target,0);
         System.out.println(list);
-        ArrayList<Integer> lists= new ArrayList<>()
+        ArrayList<Integer> lists= new ArrayList<>();
+        lists1(arr,target,0,lists);
         System.out.println(lists);
     }
 
