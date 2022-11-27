@@ -5,6 +5,7 @@ public class calculator {
         Scanner in = new Scanner(System.in);
         System.out.println("welcome to calculator");
         // float result;
+        
         // System.out.println("do you want to coninue? press x or X to exit");
         // char status = in.next().trim().charAt(0);
 
