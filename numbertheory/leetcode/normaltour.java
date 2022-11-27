@@ -6,7 +6,7 @@ public class normaltour {
         System.out.println(numberOfMatches(n));
     }
     static int m = 0;
-    public int numberOfMatches(int n) {
+    public static int numberOfMatches(int n) {
         if(n==2){
             return m +1;
         }
