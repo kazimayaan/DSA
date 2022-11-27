@@ -3,7 +3,7 @@ package numbertheory.leetcode;
 public class normaltour {
     public static void main(String[] args) {
         int n = 14;
-        System.out.println(number);
+        System.out.println(numberOfMatches(n));
     }
     static int m = 0;
     public int numberOfMatches(int n) {
