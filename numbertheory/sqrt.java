@@ -3,8 +3,11 @@ package numbertheory;
 public class sqrt {
     public static void main(String[] args) {
         // well use binary search
+        int x = 10;
+        int y = mySqrt(x);
+        System.out.println(y);
     }
-    public int mySqrt(int x) {
+    public static int mySqrt(int x) {
         if(x == 1){
             return 1;
         }
