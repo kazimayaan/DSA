@@ -10,7 +10,9 @@ public class selection {
       if(i == 0){
         return;
       }
-      if()
+      if(arr[k]<arr[k+1]){
+        k = k+1; 
+      }
     }
     private static void swap(int a, int b, int[] arr){
         int temp = arr[a];
