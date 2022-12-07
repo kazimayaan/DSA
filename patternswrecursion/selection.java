@@ -7,7 +7,10 @@ public class selection {
     }
 
     private static void selection(int[] arr, int i, int j, int k) {
-      
+      if(i == 0){
+        return;
+      }
+      if()
     }
     private static void swap(int a, int b, int[] arr){
         int temp = arr[a];
