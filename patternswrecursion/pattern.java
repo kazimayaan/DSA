@@ -3,7 +3,7 @@ package patternswrecursion;
 public class pattern {
     public static void main(String[] args) {
         // pattern(4,4);
-        pattern1(4,4);
+        pattern1(4,0);
 
     }
     public static void pattern(int row, int col){
@@ -24,13 +24,13 @@ public class pattern {
             if(row==0){
                 return;
             }
-          if(row>col){
-            System.out.println("*");
-            pattern1(row,--col);
+          if(col<row){
+            System.out.print("*");
+            pattern1(row,col+1);
           }
           else{
             System.out.println();
-            pattern1(--row,--col);
+            pattern1(--row,0);
           }
     }
 }
