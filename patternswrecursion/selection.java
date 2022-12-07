@@ -7,6 +7,11 @@ public class selection {
     }
 
     private static void selection(int[] arr, int i, int j, int k) {
-        qq
+      
+    }
+    private static void swap(int a, int b, int[] arr){
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b]= temp;
     }
 }
