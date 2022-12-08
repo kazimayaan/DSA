@@ -29,7 +29,7 @@ public class merge {
              
                 i++;
             }
-            if(right[j]<left[i]){
+          else{
                 mix[k]=right[j];
                 j++;
             }
