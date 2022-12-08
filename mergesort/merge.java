@@ -6,7 +6,7 @@ public class merge {
     public static void main(String[] args) {
         int[] arr = {1,6,3,4,2,9,19};
         int[] lol = mergesort(arr);
-        System.out.println();
+        System.out.println(Arrays.toString(lol));
 
     }
     static int[] mergesort(int[] arr){
