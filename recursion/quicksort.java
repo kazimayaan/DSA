@@ -23,7 +23,6 @@ public class quicksort {
                 }
                 while(arr[e]>pivot){
                     e--;
-
                 }
                 if(s<=e){
                     int temp = arr[s];
