@@ -27,8 +27,8 @@ public class quicksort {
                 }
                 if(s<=e){
                     int temp = arr[s];
-                    arr[s]=arr[m];
-                    arr[m]=temp;
+                    arr[s]=arr[e];
+                    arr[e]=temp;
                     s++;
                     e--;
                 }
