@@ -9,13 +9,14 @@ public class quicksort {
     System.out.println(Arrays.toString(arr));
     }
     public static void qsort(int[] arr, int low, int hi){
-
-        while(low<hi){
+        if(low>=hi){
+            return;
+        }
             int s = low;
             int e = hi;
             int m = s+(e-s)/2;
             int pivot = arr[m];
-            while(s<e){
+            while(s<=e){
                 while(arr[s]<pivot){
                     s++;
                     
@@ -34,7 +35,7 @@ public class quicksort {
             }
             qsort(arr,low,e);
             qsort(arr,s,hi);
-        }
+        
 
     }
 }
