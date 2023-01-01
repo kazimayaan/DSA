@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class perm {
     public static void main(String[] args) {
         perm("","abc");
-      System.out.println(permu("","abc"));  
+        
+      System.out.println(permu("","abcd"));  
+      System.out.println(permc("","abcd"));
     }
 
     private static void perm(String p, String up) {
@@ -58,8 +60,36 @@ public class perm {
         return ansa;
 
     }
+    private static int permc(String p, String up) {
+
+        if(up.isEmpty()){
+              
+            // System.out.println(p);
+         return 1;
+
+         
+        }
+        char ch = up.charAt(0);
+        int count = 0;
+        // ArrayList<String> ansa = new ArrayList<>();
+        for(int i = 0; i <= p.length();i++){
 
 
-    
+
+
+            String l = p.substring(0,i);
+            String r = p.substring(i, p.length());
+         
+            count = count+(permc(l+ch+r, up.substring(1)));
+
+
+
+        }
+        return count;
+
+    }
+
+
+
 
 }
