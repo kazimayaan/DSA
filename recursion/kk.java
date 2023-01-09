@@ -6,7 +6,9 @@ public class kk{
         String[] strs = new String[2];
         strs[0] = "car";
         strs[1] = "cir";
-        System.out.println(longestCommonPrefix(strs));
+        // System.out.println(longestCommonPrefix(strs));
+        String[] logs = {"d1/","d2/","../","d21/","./"};
+        System.out.println(minOperations(logs));
 
     }
 
@@ -60,5 +62,24 @@ public class kk{
             }
             return ans.toString();
             
+        }
+        public static int minOperations(String[] logs) {
+
+            int main = 0;
+            int cur = 0;
+            for(int i = 0; i< logs.length; i++){
+                if(logs[i]=="../"){
+                    if(cur!=0){
+                        --cur;
+                    }
+                }
+                if(logs[i]=="./"){
+                    cur = cur;
+                }
+                else{
+                    cur++;
+                }
+            }
+            return cur;
         }
     }
