@@ -9,7 +9,7 @@ public class shadowing {
 
         for (int index = 0; index < 10; index++) {
             // SocketTimeoutException
-            System.out.println(x);
+            System.out.print(x + " ");
         }
         fun();
 
