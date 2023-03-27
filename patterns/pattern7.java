@@ -11,18 +11,18 @@ public class pattern7 {
             
             
             int cols = row;
-            if (row > n) {
-                cols = n - (row - n);
-            }
+            // if (row > n) {
+            //     cols = n - (row - n);
+            // }
             int ns;
             
              ns = n-cols;
            
             
-            for (int k = 0; k < ns; k++) {
+            for (int k = 0; k < n-row; k++) {
                 System.out.print(" ");
             }
-            for (int column = 1; column <= cols; column++) {
+            for (int column = 1; column <= row; column++) {
                 System.out.print("* ");
             }
           
