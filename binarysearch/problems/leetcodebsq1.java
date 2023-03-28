@@ -1,4 +1,4 @@
-package binarysearch.problems;
+package problems;
 public class leetcodebsq1 {
     public static void main(String[] args) {
         char[] arr = {'a','b','d','k','m','n'};
