@@ -9,20 +9,19 @@ public class apr31 {
     }
     public static int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
-        int i = 0;
+        // int i = 0;
         int counter = 0;
-        while(i < people.length){
-            int sum = 0;
-            sum = people[i];
-            i++;
-            if(sum==limit){
-                counter+=1;
+        int s = 0; 
+        int e = people.length-1;
+        while(s<=e){
+            int sum = people[s]+people[e];
+            if(sum<=limit){
+                s++;
+                e--;
+                counter++;
             }
-            else{
-                while(i<people.length && sum < limit){
-                    sum = sum + people[i];
-                    i++;
-                }
+            else if(sum > limit){
+                e--;
                 counter++;
             }
         }
